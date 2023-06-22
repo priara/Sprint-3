@@ -1,0 +1,590 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.imglogo{
+    background-color: rgba(28, 5, 49, 0.448);
+    border-radius: 40px solid violet;
+    width: 12%;
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+nav{
+    min-height: 10vh;
+    background-color: rgb(89, 19, 155);
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    border: 2px dotted rgba(131, 13, 113, 0.347);
+    color: rgb(62, 17, 62);
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-weight: 800;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: margin-right 2s;
+    height: 2rem;
+}
+nav a:hover{
+    color: rgb(251, 0, 214);
+    background-color: rgb(135, 85, 163);
+}
+
+.divnav{
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    margin-top: 0.5rem;
+}
+header{
+    min-height: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 146, 246);
+
+}
+h1, h2{
+    color: rgb(98, 6, 98);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}   
+main{
+    min-height: 70vh;
+    text-align: center;
+    background-color: rgb(198, 146, 246);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imghome1{
+    width: 50%;
+    border-radius: 15px;
+    border: 10px double rgb(137, 16, 137);
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.divhome{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imghome2{
+    width: 30%;
+    border-radius: 15px;
+    border: 10px double rgb(137, 16, 137);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.parrafohome{
+    width: 25%;
+    height: 25vh;
+    color: rgb(64, 14, 68);
+    font-weight: 700;
+}
+footer{
+    min-height: 5.5vh;
+    background-color: rgb(89, 19, 155);
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajita1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+.cajita2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cajita3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.imgabout{
+    width: 25rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 10px double rgb(137, 16, 137);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.imgabout1{
+    width: 25rem;
+    height: 15rem;
+    border-radius: 15px;
+    border: 10px double rgb(137, 16, 137);
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.imgabout2{
+    width: 25rem;
+    height: 15rem;
+    border-radius: 15px;
+    border: 10px double rgb(137, 16, 137);
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.mainabout{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.1rem;
+}
+.parrafoabout{
+    height: 8rem;
+    width: 30rem;
+    color: rgb(64, 14, 68);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    background-color: rgba(157, 29, 179, 0.323);
+    border-radius: 30px;
+    border: 1px solid rgb(17, 10, 10);
+}
+.imgcontact{
+    width: 30rem;
+    border-radius: 15px;
+    border: 10px double rgb(137, 16, 137);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 1rem;
+}
+.parrafocontact{
+    color: rgb(64, 14, 68);
+    font-weight: 700;
+}
+.cajamail2{
+    width: 35rem;
+    display: flex;
+    justify-content: space-around;
+}
+div a{
+    text-decoration: none;
+    color: rgb(64, 14, 68);
+    font-weight: 700;
+}
+.cajitamail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table, th, tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    color: black;
+    width: 30rem;
+    height: 6rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.maintable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+thead{
+    background-color: blueviolet;
+    
+}
+tbody{
+    background-color: rgba(137, 43, 226, 0.346);
+}
+
+ul{
+    list-style-type: square;
+}
+.imgbenefits{
+    width: 25rem;
+    border-radius: 15px;
+    border: 10px double rgb(137, 16, 137);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.caja1{
+    color: rgb(64, 14, 68);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.caja2{
+    color: rgb(64, 14, 68);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+li{
+    text-align: start;
+    width: 25rem;
+}
+form{
+    height: 35rem;
+    background-color: rgba(78, 15, 136, 0.302);
+    margin-bottom: 1rem;
+    color: rgb(64, 14, 68);
+    font-weight: 600;
+    border-radius: 2rem;
+}
+fieldset{
+    height: 35rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 2rem;
+    border-color: rgb(52, 5, 58);
+}
+.mainraffle{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    width: 18rem;
+}
+select#chosen-country{
+    width: 18rem;
+}
+input#chosen-date{
+    width: 18rem;
+}
+.date{
+    width: 7rem;
+}
+textarea{
+    resize: none;
+    width: 18rem;
+    height: 8rem;
+    margin-bottom: 0.5rem;
+}
+.paymentoptions{
+    display: flex;
+    align-items: start;
+    height: 1.5rem;
+}
+input#cash{
+    width: 1.5rem;
+}
+input#credit-card{
+    width: 1.5rem;
+}
+input#debit-card{
+    width: 1.5rem;
+}
+.conditions{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 20rem;
+}
+#cbox2{
+    width: 1rem;
+}
+input#terms-and-conditions{
+    width: 2rem;
+}
+.textoconditions{
+    width: 15rem;
+    text-align: start;
+}
+.boton{
+    width: 4rem;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(159, 147, 156);
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+div h3{
+    color: rgb(64, 14, 68);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    nav{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .divnav{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        width: 10rem;
+        justify-content: center;
+    }
+    .imglogo{
+        width: 15rem;
+    }
+    header{
+        text-align: center;
+    }
+    .parrafohome{
+        width: 20rem;
+        font-size: 0.8rem;
+    }
+    .divhome{
+        flex-direction: column-reverse;
+    }
+    .imghome1{
+        width: 18rem;
+    }
+    .imghome2{
+        width: 15rem;
+    }
+    .cajita1, .cajita2, .cajita3{
+        flex-direction: column;
+    }
+    .imgabout, .imgabout1, .imgabout2{
+        width: 15rem;
+        height: 15rem;
+    }
+    .parrafoabout{
+        margin-top: 1rem;
+        width: 15rem;
+    }
+    .imgcontact{
+        width: 18rem;
+        height: 15rem;
+        margin-top: 2rem;
+    }
+    .cajitamail{
+        flex-direction: column;
+        height: 12.6rem;
+        justify-content: center;
+    }
+    .cajamail2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .parrafocontact{
+        height: 2rem;
+        width: 18rem;
+        margin-bottom: 1rem;
+    }
+
+    .h1h2info{
+        width: 18rem;
+        font-size: 1rem;
+        padding: 1rem;
+        text-decoration: none;
+        text-align: center;
+    }
+    table{
+        height: 30rem;
+        margin: 1rem;
+    }
+    .caja1, .caja2{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        height: 25rem;
+    }
+    li{
+        text-align: start;
+        width: 15rem;
+    }
+    .imgbenefits{
+        width: 18rem;
+    }
+    .mainraffle{
+        flex-direction: column;
+        align-items: center;
+    }
+    fieldset{
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        width: 10rem;
+    }
+    textarea{
+        width: 10rem;
+    }
+    #chosen-date.date{
+        width: 10rem;
+    }
+    .conditions{
+        flex-direction: column;
+    }
+    .h1raffle{
+        font-size: 1.5rem;
+        padding: 1rem;
+        height: 2.8rem;
+        text-decoration: none;
+    }
+    .h2raffle{
+        font-size: 1rem;
+        height: 3rem;
+        text-decoration: none;
+    }
+    .paymentoptions{
+        justify-content: start;
+        width: 10rem;
+    }
+    iframe{
+        width: 18rem;
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+    div h3{
+        font-size: 1rem;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    nav{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .divnav{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        width: 10rem;
+        justify-content: center;
+    }
+    .imglogo{
+        width: 15rem;
+    }
+    header{
+        text-align: center;
+    }
+    .parrafohome{
+        width: 20rem;
+    }
+    .imghome1{
+        width: 30rem;
+    }
+    .imghome2{
+        width: 20rem;
+    }
+    .cajita1, .cajita2, .cajita3{
+        flex-direction: column;
+    }
+    .imgabout, .imgabout1, .imgabout2{
+        width: 25rem;
+        height: 20rem;
+    }
+    .parrafoabout{
+        margin-top: 1rem;
+        width: 25rem;
+    }
+    .imgcontact{
+        width: 30rem;
+        height: 20rem;
+        margin-top: 2rem;
+    }
+    .cajitamail{
+        flex-direction: column;
+        height: 12.6rem;
+        justify-content: center;
+    }
+    .cajamail2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .parrafocontact{
+        height: 1rem;
+        width: 20rem;
+        margin-bottom: 1rem;
+    }
+
+    .h1h2info{
+        font-size: 1.4rem;
+        padding: 1rem;
+        text-decoration: none;
+        text-align: center;
+    }
+    table{
+        height: 30rem;
+        margin: 1rem;
+    }
+    .caja1, .caja2{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        height: 25rem;
+    }
+    li{
+        text-align: start;
+        width: 15rem;
+    }
+    .imgbenefits{
+        width: 25rem;
+    }
+    .mainraffle{
+        flex-direction: column;
+        align-items: center;
+    }
+    fieldset{
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        width: 10rem;
+    }
+    textarea{
+        width: 10rem;
+    }
+    #chosen-date.date{
+        width: 10rem;
+    }
+    .conditions{
+        flex-direction: column;
+    }
+    .h1raffle{
+        font-size: 1.5rem;
+        padding: 1rem;
+        height: 2.8rem;
+        text-decoration: none;
+    }
+    .h2raffle{
+        font-size: 1rem;
+        text-decoration: none;
+        margin-bottom: 1rem;
+    }
+    .paymentoptions{
+        justify-content: start;
+        width: 10rem;
+    }
+    iframe{
+        width: 18rem;
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+    div h3{
+        font-size: 1rem;
+    }
+
+}
